@@ -1,0 +1,34 @@
+*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: azure;
+}
+img{
+    position: absolute;
+    width: 50vw ;
+    height: 50vh;
+    inset: 25%;
+    border-width: 50px;
+    border-color: blue;
+}
+.carousel-b{
+    position:absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    color: aqua;
+    font-size: 4vh;
+
+}
+.prev{
+    left:25.4%;
+}
+.next{
+    top:47%;
+    left: 72%;
+    transform: scaleX(-1);
+}
